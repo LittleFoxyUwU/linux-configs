@@ -25,13 +25,6 @@ else
   echo "WARNING: thefuck is not downloaded"
 fi
 
-# Git shortcuts
-
-if [[ -e /usr/bin/git ]]; then
-  alias gitu='
-else
-  echo "WARNING: git is not downloaded"
-fi
 # Exa shortcuts
 if [[ -e /usr/bin/exa ]]; then
   alias exa='exa -lG'
